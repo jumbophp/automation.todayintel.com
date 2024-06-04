@@ -1,0 +1,276 @@
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   ERROR  Command "horizon" is not defined.  
+
+
+   Illuminate\Database\QueryException 
+
+  Database file at path [/var/www/html/laravel.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+34 vendor frames [22m
+
+  35  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  Database file at path [/var/www/html/laravel.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+34 vendor frames [22m
+
+  35  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  Database file at path [/var/www/html/laravel.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+34 vendor frames [22m
+
+  35  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  Database file at path [/var/www/html/laravel.sqlite] does not exist. Ensure this is an absolute path to the database. (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+34 vendor frames [22m
+
+  35  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000]: General error: 1 no such table: cache (Connection: sqlite, SQL: select * from "cache" where "key" = illuminate:queue:restart limit 1)
+
+  at vendor/laravel/framework/src/Illuminate/Database/Connection.php:813
+    809▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    810▕                 );
+    811▕             }
+    812▕ 
+  ➜ 813▕             throw new QueryException(
+    814▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    815▕             );
+    816▕         }
+    817▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
