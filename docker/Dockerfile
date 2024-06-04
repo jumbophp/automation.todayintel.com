@@ -2,6 +2,10 @@ FROM php:8.3-fpm
 # Set working directory
 WORKDIR /var/www/html
 
+#RUN "pip3 install --upgrade pip"
+#RUN "pip3 install --upgrade setuptools"
+#RUN "pip3 install --upgrade wheel"
+#RUN "pip3 install --upgrade laravel-pint"
 # Add docker php ext repo
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
 
@@ -67,5 +71,7 @@ RUN chmod +x /var/www/html/docker/run.sh
 
 # Expose ports
 EXPOSE 8004
+
+
 
 ENTRYPOINT ["/var/www/html/docker/run.sh"]
