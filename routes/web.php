@@ -23,7 +23,9 @@ Route::post('/api/email', EmailAutomation::class)
 Route::post('/api/publish', PublishAutomation::class)
     ->middleware('guest')
     ->name('publish');
-
+Route::post('/api/publish', PublishAutomation::class)
+    ->middleware('guest')
+    ->name('publish');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
