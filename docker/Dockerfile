@@ -72,6 +72,4 @@ RUN chmod +x /var/www/html/docker/run.sh
 # Expose ports
 EXPOSE 8004
 
-
-
 ENTRYPOINT ["/var/www/html/docker/run.sh"]
